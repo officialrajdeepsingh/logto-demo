@@ -1,9 +1,12 @@
-# How to Add Secure Auth to Your Next.js App Using Logto?
+# How to Add Secure Auth to Your Next.js 15 Application Using Logto?
 Quickly integrate Logto to Next.js 15 for Secure Authentication in under 5 Minutes.
 
 ---
-[How to Add Secure Auth to Your Next.js App Using Logto?](https://medium.com/frontendweb/how-to-add-keyboard-shortcuts-in-next-js-with-tinykeys-ec649cab8ac4)
+[How to Add Secure Auth to Your Next.js App Using Logto?](https://medium.com/frontendweb/how-to-add-secure-auth-to-your-next-js-app-using-logto-ba68ebb1f680)
 ---
+
+## Demo
+
 
 ## Getting Started
 
@@ -15,7 +18,7 @@ git clone https://github.com/officialrajdeepsingh/logto-demo
 # change folder
 cd logto-demo
 ```
-The next step is to install the Node Package Using the Node package manager.
+The next step is to install the Node Package using the Node Package Manager.
 
 ```bash
 pnpm install

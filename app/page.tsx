@@ -4,10 +4,19 @@ import { getLogtoContext } from "@logto/next/server-actions";
 import { logtoConfig } from "@/app/logto";
 
 export default async function Home() {
+  //  Access current user information (first example)
   const { isAuthenticated, claims } = await getLogtoContext(logtoConfig);
 
+  //  Access current user information (second example)
+  /* const { isAuthenticated, userInfo, claims } = await getLogtoContext(
+     logtoConfig,
+    {
+       fetchUserInfo: true,
+     },
+   ); */
+
   if (isAuthenticated === true) {
-    const { username } = claims;
+    const { username, email } = claims;
     return (
       <div className="mx-auto container  px-5 py-16 md:px-10 md:py-20">
         <div className="mx-auto mb-8 w-full max-w-3xl text-center md:mb-12 lg:mb-16">
@@ -15,6 +24,7 @@ export default async function Home() {
             {" "}
             Welcome to the {username ? username : ""}
           </h1>
+          <div>{email && <p>Email: {email} </p>}</div>
         </div>
       </div>
     );

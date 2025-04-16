@@ -6,6 +6,7 @@ Quickly integrate Logto to Next.js 15 for Secure Authentication in under 5 Minut
 ---
 
 ## Demo
+![image](https://github.com/user-attachments/assets/3ea4d3f9-67d9-4e52-ad66-f3d17b9616e9)
 
 
 ## Getting Started
